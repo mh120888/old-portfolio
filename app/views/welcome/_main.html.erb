@@ -1,5 +1,5 @@
 <div id='logo'>
-  <span id='logo'>Image/logo here</span>
+  <%= image_tag "MattHiggins.png", id: 'logo' %>
   <span id='nav-links'> <!-- float right -->
     <%= link_to 'Home', root_path %>
     <%= link_to 'Portfolio', '/#portfolio-content' %>
@@ -7,6 +7,6 @@
     <%= link_to 'Contact', root_path %>
   </span>
   <div id='welcome-image'> <!-- center -->
-    <span>Welcome Image Here</span>
+    <%= image_tag "main-image.png", id: 'main-image' %>
   </div>
 </div>
