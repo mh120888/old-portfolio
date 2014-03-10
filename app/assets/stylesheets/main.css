@@ -2,6 +2,8 @@ body {
   background-color: #333;
   background-image: url('background.png');
   background-attachment: fixed;
+  font-family: 'Lato', sans-serif;
+  font-weight: 200;
 }
 
 img#logo {
@@ -18,8 +20,6 @@ img#logo {
   text-decoration: none;
   color: white;
   font-size: 1.3em;
-  font-family: 'Lato', sans-serif;
-  font-weight: 200;
   padding-right: 1.5em;
 }
 

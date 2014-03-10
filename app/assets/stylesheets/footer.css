@@ -1,0 +1,13 @@
+footer {
+  height: 300px;
+}
+
+footer i {
+  font-size: 4em;
+  color: white;
+  margin: 1em 0.5em 0 0;
+}
+
+#footer-links {
+  float: right;
+}
