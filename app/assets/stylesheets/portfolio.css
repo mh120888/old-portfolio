@@ -17,24 +17,26 @@ div.divider {
   margin: 2em auto;
 }
 
-#project-one {
+.full-width-project {
   width: 95%;
   background: #eee;
   margin: 1em auto;
-  height: 280px;
 }
 
-#project-two, #project-three {
+.left-project, .right-project {
   width: 45%;
   background: #eee;
   margin: 2em 2.5%;
-  height: 280px;
 }
 
-#project-two {
+.left-project {
   float: left;
 }
 
-#project-three {
+.right-project {
   float: right;
+}
+
+#project-container img {
+  width: 100%;
 }
