@@ -1,0 +1,24 @@
+footer {
+  clear: both;
+}
+
+footer i {
+  font-size: 4em;
+  color: white;
+  margin: 0.5em 0.5em 0 0;
+}
+
+img#logo {
+  margin: 1.5em 0;
+  float: left;
+  width: 300px;
+  margin-left: 6em;
+}
+
+#footer-links {
+  float: right;
+}
+
+#footer-links i:hover {
+  color: orange;
+}
