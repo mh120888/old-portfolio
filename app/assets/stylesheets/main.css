@@ -28,6 +28,10 @@ body {
   padding-right: 1.5em;
 }
 
+#nav-links a:hover {
+  color: orange;
+}
+
 #welcome-image {
   text-align: center;
   clear: both;
