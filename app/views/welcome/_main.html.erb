@@ -1,10 +1,10 @@
-
 <span id='nav-links'>
-  <%= link_to 'Home', root_path %>
-  <%= link_to 'Portfolio', '/#portfolio-content' %>
-  <%= link_to 'About Me', root_path %>
-  <%= link_to 'Contact', root_path %>
+  <%= link_to 'Home', root_path, id: 'home' %>
+  <%= link_to 'Portfolio', root_path, id: 'portfolio' %>
+  <%= link_to 'About Me', root_path, id: 'about-me' %>
+  <%= link_to 'Contact', root_path, id: 'contact' %>
 </span>
-<div id='welcome-image'>
-  <%= image_tag "main-image.png", id: 'main-image' %>
+<div id='top-content'>
+  <%= render 'home' %>
+  <%= render 'about_me' %>
 </div>

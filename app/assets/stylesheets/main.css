@@ -1,6 +1,6 @@
 body {
   background-color: #333;
-  background-image: url('background.png');
+  background-image: url('colors.png');
   background-attachment: fixed;
   font-family: 'Lato', sans-serif;
   font-weight: 200;
@@ -16,6 +16,10 @@ body {
   clear: both;
 }
 
+#main-content {
+  height: 460px;
+}
+
 #nav-links {
   float: right;
   margin: 2em 4em 0 0;
@@ -29,15 +33,21 @@ body {
 }
 
 #nav-links a:hover {
-  color: orange;
+  color: #00D5FF;
 }
 
 #welcome-image {
   text-align: center;
   clear: both;
+  position: relative;
 }
 
 #welcome-image img {
   width: 50%;
-  margin: 3em 0;
+  margin: 4em 0;
+}
+
+#about-me-content {
+  display: none;
+  position: relative;
 }
