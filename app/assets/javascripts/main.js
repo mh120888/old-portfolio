@@ -11,15 +11,16 @@ var MainContent = {
   },
   showHomeContent: function() {
     event.preventDefault();
-    $('#about-me-content').hide();
-    $('#welcome-image').show();
-    $('#welcome-image').animate({left: '0%'}, 700);
+    $('#about-me-content').animate({left: '-100%'}, 700, function() {
+      $('#welcome-image').show();
+      $('#welcome-image').animate({left: '0%'}, 700);
+    });
   },
   showAboutMeContent: function() {
     event.preventDefault();
     $('#welcome-image').animate({left: '-75%'}, 700, function() { 
       $(this).hide();
-      $('#about-me-content').show(); 
+      $('#about-me-content').animate({left: '0%'}, 700); 
     });
   },
   scrollToPortfolio: function() {
