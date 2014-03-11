@@ -1,0 +1,43 @@
+body {
+  background-color: #333;
+  background-image: url('background.png');
+  background-attachment: fixed;
+  font-family: 'Lato', sans-serif;
+  font-weight: 200;
+  color: #333;
+  text-align: center;
+}
+
+.italic {
+  font-style: italic; 
+}
+
+.clear {
+  clear: both;
+}
+
+#nav-links {
+  float: right;
+  margin: 2em 4em 0 0;
+}
+
+#nav-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.3em;
+  padding-right: 1.5em;
+}
+
+#nav-links a:hover {
+  color: orange;
+}
+
+#welcome-image {
+  text-align: center;
+  clear: both;
+}
+
+#welcome-image img {
+  width: 50%;
+  margin: 3em 0;
+}
