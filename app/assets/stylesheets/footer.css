@@ -1,6 +1,6 @@
-/*footer {
-  height: 300px;
-}*/
+footer {
+  clear: both;
+}
 
 footer i {
   font-size: 4em;

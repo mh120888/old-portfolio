@@ -12,6 +12,10 @@ body {
   font-style: italic; 
 }
 
+.clear {
+  clear: both;
+}
+
 #nav-links {
   float: right;
   margin: 2em 4em 0 0;

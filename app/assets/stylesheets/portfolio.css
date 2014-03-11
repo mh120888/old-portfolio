@@ -3,11 +3,38 @@
   background-color: white;
   border-top: solid 1em #CECFD2;
   border-bottom: solid 1em #CECFD2;
-  height: 500px;
 }
 
 div.divider {
   border-top: solid 1px #eee;
-  width: 50%;
+  width: 80%;
   margin: 2em auto 0;
+}
+
+#project-container {
+  width: 80%;
+  height: 200px;
+  margin: 2em auto;
+}
+
+#project-one {
+  width: 95%;
+  background: #eee;
+  margin: 1em auto;
+  height: 280px;
+}
+
+#project-two, #project-three {
+  width: 45%;
+  background: #eee;
+  margin: 2em 2.5%;
+  height: 280px;
+}
+
+#project-two {
+  float: left;
+}
+
+#project-three {
+  float: right;
 }
