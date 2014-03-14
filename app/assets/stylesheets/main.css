@@ -10,6 +10,7 @@ body {
 
 #filter {
   background: rgba(20,20,20, 0.15);
+  margin: -8px -8px;
 }
 
 .italic {
@@ -22,7 +23,7 @@ body {
 
 #nav-links {
   float: right;
-  margin: 2em 4em 0 0;
+  margin: 2em 1em 0 0;
 }
 
 #nav-links a {
@@ -38,7 +39,7 @@ body {
 
 #top-content {
   height: 0;
-  padding-bottom: 48%;
+  padding-bottom: 40%;
 }
 
 #welcome-image {
@@ -56,7 +57,7 @@ body {
   display: none;
   position: relative;
   left: -100%;
-  top: 3em;
+  top: 1em;
   clear: both;
   background: rgba(20,20,20, 0.5);
   width: 60%;
@@ -86,4 +87,17 @@ img#matt {
   float: right;
   width: 45%;
   margin-right: 4%;
+}
+
+div.collapsible {
+  margin: 0 -8px;
+  background-color: white;
+  clear: both;
+}
+
+.collapsible h2 {
+  font-size: 3.5em;
+  font-weight: 200;
+  margin-bottom: 0px;
+  padding-top: 0.7em;
 }
