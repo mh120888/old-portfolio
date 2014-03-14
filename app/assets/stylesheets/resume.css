@@ -1,0 +1,17 @@
+#resume-content {
+  margin: 0 16px;
+  background-color: white;
+}
+
+#resume-content h2 {
+  font-size: 3.5em;
+  font-weight: 200;
+  margin-bottom: 0px;
+  padding-top: 1em;
+}
+
+div.divider {
+  border-top: solid 1px #eee;
+  width: 80%;
+  margin: 2em auto 0;
+}

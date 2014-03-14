@@ -8,16 +8,16 @@ body {
   text-align: center;
 }
 
+#filter {
+  background: rgba(20,20,20, 0.15);
+}
+
 .italic {
   font-style: italic; 
 }
 
 .clear {
   clear: both;
-}
-
-#main-content {
-  height: 600px;
 }
 
 #nav-links {
@@ -36,6 +36,11 @@ body {
   color: #00D5FF;
 }
 
+#top-content {
+  height: 0;
+  padding-bottom: 48%;
+}
+
 #welcome-image {
   text-align: center;
   clear: both;
@@ -48,6 +53,7 @@ body {
 }
 
 #about-me-content {
+  display: none;
   position: relative;
   left: -100%;
   top: 3em;
@@ -55,10 +61,29 @@ body {
   background: rgba(20,20,20, 0.5);
   width: 60%;
   margin: 0 auto;
+  color: white;
+  font-size: 1.7em;
 }
 
-#about-me-content img {
-  width: 90%;
-  position: relative;
-  z-index: 1;
+#about-me-content h2 {
+  padding: 1.5em 0 0 3em;
+  text-align: left
+}
+
+img#matt {
+  float: right;
+  width: 15%;
+  padding: 1em 4em 0 0;
+}
+
+.column-one {
+  float: left;
+  width: 42%;
+  margin-left: 4%;
+}
+
+.column-two {
+  float: right;
+  width: 45%;
+  margin-right: 4%;
 }
