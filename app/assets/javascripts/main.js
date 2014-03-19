@@ -45,7 +45,7 @@ var MainContent = {
     $('html, body').animate({
     scrollTop: $("#footer-links").offset().top
     }, 1500);
-  }
+  },
 }
 
 var PortfolioContent = {
