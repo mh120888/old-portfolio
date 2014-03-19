@@ -60,7 +60,7 @@ div.divider {
 }
 
 .left-project div.project-info, .right-project div.project-info {
-  margin: -138px auto -6px;
+  margin: -138px auto 36px;
   background-color: white;
   position: relative;
   width: 75%;
