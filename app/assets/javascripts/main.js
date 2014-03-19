@@ -51,9 +51,16 @@ var MainContent = {
 var PortfolioContent = {
   bindEvents: function() {
     $('#portfolio-content h2').on('click', PortfolioContent.showPortfolio);
+    $('#portfolio-content div.project').hover(PortfolioContent.showProjectInfo, PortfolioContent.hideProjectInfo)
   },
   showPortfolio: function() {
     $('#project-container').slideToggle(800);;
+  },
+  showProjectInfo: function() {
+    $(this).find('.project-info').show();
+  },
+  hideProjectInfo: function() {
+    $(this).find('.project-info').hide();
   }
 }
 
@@ -65,3 +72,6 @@ var ResumeContent = {
     $('#resume-container').slideToggle(800);;
   }
 }
+
+
+// $('#portfolio-content div.project').hover(function(){console.log('in')}, function(){console.log('out')});

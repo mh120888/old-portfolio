@@ -49,12 +49,13 @@ div.divider {
 }
 
 .full-width-project div.project-info {
-  margin: -118px auto 64px;
+  margin: -118px auto 50px;
   background-color: white;
   position: relative;
   width: 75%;
   padding: 8px;
   border-radius: 8px;
+  display: none;
 }
 
 .left-project div.project-info, .right-project div.project-info {
@@ -64,8 +65,5 @@ div.divider {
   width: 75%;
   padding: 8px;
   border-radius: 8px;
-}
-
-#portfolio-content div {
-  
+  display: none;
 }
