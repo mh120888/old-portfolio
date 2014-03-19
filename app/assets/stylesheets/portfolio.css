@@ -47,3 +47,25 @@ div.divider {
 #project-container img {
   width: 100%;
 }
+
+.full-width-project div.project-info {
+  margin: -118px auto 64px;
+  background-color: white;
+  position: relative;
+  width: 75%;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+.left-project div.project-info, .right-project div.project-info {
+  margin: -138px auto -6px;
+  background-color: white;
+  position: relative;
+  width: 75%;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+#portfolio-content div {
+  
+}
