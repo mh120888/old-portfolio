@@ -13,12 +13,6 @@ body {
   margin: -8px -8px;
 }
 
-.filter {
-  background: rgba(20,20,20, 0.15);
-  position: relative;
-  z-index: 2;
-}
-
 a {
   color: #333;
 }
@@ -78,12 +72,9 @@ a {
   border-radius: 24px;
 }
 
-#contact-me {
-  visibility: hidden;
-}
-
 #about-me-content h2 {
-  padding: 1.5em 0 0 3em;
+  border-bottom: solid 1px;
+  padding: 1.5em 0 8px 3em;
   text-align: left
 }
 
