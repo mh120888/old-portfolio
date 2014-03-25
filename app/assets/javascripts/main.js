@@ -11,6 +11,7 @@ var MainContent = {
     $('a#portfolio').on('click', MainContent.scrollToPortfolio);
     $('a#resume').on('click', MainContent.scrollToResume);
     $('a#contact').on('click', MainContent.scrollToFooter);
+    $('.collapsible h2').hover(function(){$(this).css('color', '#00D5FF')}, function(){$(this).css('color', '#333')});
   },
   showHomeContent: function() {
     event.preventDefault();
