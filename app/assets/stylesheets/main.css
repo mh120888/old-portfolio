@@ -132,13 +132,12 @@ div.collapsible {
   }
   #main-content {
     margin-top: 28px;
-    min-height: 150px;
+    height: 150px;
   }
   #welcome-image img {
-    width: 50%;
-    min-width: 300px;
+    width: 300px;
     position: relative;
-    top: -75px;
+    top: -100px;
   }
   img#logo {
     display: none;
