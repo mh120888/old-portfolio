@@ -60,3 +60,25 @@ div.divider {
 .project-info a.first-link {
   padding-right: 24px;
 }
+
+@media (max-width: 940px) {
+  #portfolio-content {
+    overflow: auto;
+  }
+  div#portfolio-content h2 {
+    margin-top: 0;
+  }
+  .left-project, .right-project {
+    width: 95%;
+    background: #eee;
+    margin: 1em auto;
+    float: none;
+  }
+  .full-width-project div.project-info, .left-project div.project-info, .right-project div.project-info  {
+    width: 90%;
+  }
+  .project-info a.first-link {
+    padding-right: 0px;
+    display: block;
+  }
+}

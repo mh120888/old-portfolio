@@ -32,3 +32,12 @@ img#logo {
 #footer-links i:hover {
   color: #00D5FF;
 }
+
+@media (max-width: 540px) {
+  #footer-links p {
+    display: none;
+  }
+  #footer-links i {
+    font-size: 3em;
+  }
+}
