@@ -64,6 +64,8 @@ div.divider {
 @media (max-width: 940px) {
   #portfolio-content {
     overflow: auto;
+    position: relative;
+    z-index: 10;
   }
   div#portfolio-content h2 {
     margin-top: 0;

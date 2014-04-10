@@ -51,7 +51,7 @@ var MainContent = {
 
 var PortfolioContent = {
   bindEvents: function() {
-    $('#portfolio-content h2').on('click', PortfolioContent.showPortfolio);
+    $('#portfolio-content').on('click', PortfolioContent.showPortfolio);
     $('#portfolio-content div.project').hover(PortfolioContent.showProjectInfo, PortfolioContent.hideProjectInfo)
   },
   showPortfolio: function() {
