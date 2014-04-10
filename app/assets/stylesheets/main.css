@@ -8,11 +8,6 @@ body {
   text-align: center;
 }
 
-#filter {
-  background: rgba(20,20,20, 0.15);
-  margin: -8px -8px;
-}
-
 .filter {
   background: rgba(20,20,20, 0.15);
   position: relative;
@@ -60,6 +55,7 @@ a {
 
 #welcome-image img {
   width: 50%;
+  min-width: 400px;
   margin: 6em 0;
 }
 
@@ -125,4 +121,27 @@ div.collapsible {
   font-weight: 200;
   margin-bottom: 0px;
   padding-top: 0.7em;
+}
+
+@media (max-width: 930px) {
+  body {
+    margin-top: 36px;
+  }
+  #nav-links {
+    display: none;
+  }
+  #main-content {
+    margin-top: 28px;
+    min-height: 350px;
+  }
+  img#logo {
+    display: none;
+  }
+  footer {
+    padding-bottom: 36px;
+  }
+  #footer-links {
+    float: none;
+    padding-bottom: 16px;
+  }
 }
