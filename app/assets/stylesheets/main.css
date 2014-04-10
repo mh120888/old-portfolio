@@ -55,7 +55,7 @@ a {
 
 #welcome-image img {
   width: 50%;
-  min-width: 400px;
+  min-width: 300px;
   margin: 6em 0;
 }
 
@@ -132,7 +132,13 @@ div.collapsible {
   }
   #main-content {
     margin-top: 28px;
-    min-height: 350px;
+    min-height: 150px;
+  }
+  #welcome-image img {
+    width: 50%;
+    min-width: 300px;
+    position: relative;
+    top: -75px;
   }
   img#logo {
     display: none;
