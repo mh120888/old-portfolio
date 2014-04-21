@@ -51,17 +51,10 @@ var MainContent = {
 
 var PortfolioContent = {
   bindEvents: function() {
-    $('#portfolio-content').on('click', PortfolioContent.showPortfolio);
-    $('#portfolio-content div.project').hover(PortfolioContent.showProjectInfo, PortfolioContent.hideProjectInfo)
+    $('#portfolio-content h2').on('click', PortfolioContent.showPortfolio);
   },
   showPortfolio: function() {
     $('#project-container').slideToggle(800);;
-  },
-  showProjectInfo: function() {
-    $(this).find('.project-info').show();
-  },
-  hideProjectInfo: function() {
-    $(this).find('.project-info').hide();
   }
 }
 
