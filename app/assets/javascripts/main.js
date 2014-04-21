@@ -32,19 +32,19 @@ var MainContent = {
   scrollToPortfolio: function() {
     event.preventDefault();
     $('html, body').animate({
-    scrollTop: $("#portfolio-content").offset().top
+      scrollTop: $("#portfolio-content").offset().top
     }, 1000);
   },
   scrollToResume: function() {
     event.preventDefault();
     $('html, body').animate({
-    scrollTop: $("#resume-content").offset().top
+      scrollTop: $("#resume-content").offset().top
     }, 1000);
   },
   scrollToFooter: function() {
     event.preventDefault();
     $('html, body').animate({
-    scrollTop: $("#footer-links").offset().top
+      scrollTop: $("#footer-links").offset().top
     }, 1500);
   },
 }
@@ -54,7 +54,7 @@ var PortfolioContent = {
     $('#portfolio-content h2').on('click', PortfolioContent.showPortfolio);
   },
   showPortfolio: function() {
-    $('#project-container').slideToggle(800);;
+    $('#project-container').slideToggle(400);;
   }
 }
 
@@ -63,7 +63,7 @@ var ResumeContent = {
     $('#resume-content h2').on('click', ResumeContent.showResume);
   },
   showResume: function() {
-    $('#resume-container').slideToggle(800);;
+    $('#resume-container').slideToggle(400);;
   }
 }
 

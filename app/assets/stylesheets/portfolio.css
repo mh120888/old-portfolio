@@ -31,8 +31,17 @@ div.divider {
   float: right;
 }
 
+#project-container {
+  position: relative;
+}
+
 #project-container img {
   width: 100%;
+  position: relative;
+}
+
+#project-container p, #project-container a {
+  position: relative;
 }
 
 .full-width-project div.project-info {
@@ -72,7 +81,7 @@ div.divider {
   }
   .left-project, .right-project {
     width: 95%;
-    background: #eee;
+    background: #fff;
     margin: 1em auto;
     float: none;
   }
