@@ -43,6 +43,10 @@ div.divider {
   position: relative;
 }
 
+#project-container a:hover {
+  color: #00D5FF;
+}
+
 .full-width-project div.project-info {
   margin: -118px auto 50px;
   background-color: #FFF;
@@ -81,7 +85,7 @@ div.divider {
   .left-project, .right-project {
     width: 95%;
     background: #fff;
-    margin: 1em auto;
+    margin: 60px auto;
     float: none;
   }
   .full-width-project div.project-info, .left-project div.project-info, .right-project div.project-info  {
