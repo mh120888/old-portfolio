@@ -11,7 +11,6 @@ var MainContent = {
     $('a#portfolio').on('click', MainContent.scrollToPortfolio);
     $('a#resume').on('click', MainContent.scrollToResume);
     $('a#contact').on('click', MainContent.scrollToFooter);
-    $('.collapsible h2').hover(function(){$(this).css('color', '#00D5FF')}, function(){$(this).css('color', '#333')});
   },
   showHomeContent: function() {
     event.preventDefault();
@@ -48,24 +47,3 @@ var MainContent = {
     }, 1500);
   },
 }
-
-var PortfolioContent = {
-  bindEvents: function() {
-    $('#portfolio-content h2').on('click', PortfolioContent.showPortfolio);
-  },
-  showPortfolio: function() {
-    $('#project-container').slideToggle(400);;
-  }
-}
-
-var ResumeContent = {
-  bindEvents: function() {
-    $('#resume-content h2').on('click', ResumeContent.showResume);
-  },
-  showResume: function() {
-    $('#resume-container').slideToggle(400);;
-  }
-}
-
-
-// $('#portfolio-content div.project').hover(function(){console.log('in')}, function(){console.log('out')});
