@@ -11,7 +11,6 @@ var MainContent = {
     $('a#portfolio').on('click', MainContent.scrollToPortfolio);
     $('a#resume').on('click', MainContent.scrollToResume);
     $('a#contact').on('click', MainContent.scrollToFooter);
-    $('.collapsible h2').hover(function(){$(this).css('color', '#00D5FF')}, function(){$(this).css('color', '#333')});
   },
   showHomeContent: function() {
     event.preventDefault();
@@ -32,47 +31,19 @@ var MainContent = {
   scrollToPortfolio: function() {
     event.preventDefault();
     $('html, body').animate({
-    scrollTop: $("#portfolio-content").offset().top
+      scrollTop: $("#portfolio-content").offset().top
     }, 1000);
   },
   scrollToResume: function() {
     event.preventDefault();
     $('html, body').animate({
-    scrollTop: $("#resume-content").offset().top
+      scrollTop: $("#resume-content").offset().top
     }, 1000);
   },
   scrollToFooter: function() {
     event.preventDefault();
     $('html, body').animate({
-    scrollTop: $("#footer-links").offset().top
+      scrollTop: $("#footer-links").offset().top
     }, 1500);
   },
 }
-
-var PortfolioContent = {
-  bindEvents: function() {
-    $('#portfolio-content').on('click', PortfolioContent.showPortfolio);
-    $('#portfolio-content div.project').hover(PortfolioContent.showProjectInfo, PortfolioContent.hideProjectInfo)
-  },
-  showPortfolio: function() {
-    $('#project-container').slideToggle(800);;
-  },
-  showProjectInfo: function() {
-    $(this).find('.project-info').show();
-  },
-  hideProjectInfo: function() {
-    $(this).find('.project-info').hide();
-  }
-}
-
-var ResumeContent = {
-  bindEvents: function() {
-    $('#resume-content h2').on('click', ResumeContent.showResume);
-  },
-  showResume: function() {
-    $('#resume-container').slideToggle(800);;
-  }
-}
-
-
-// $('#portfolio-content div.project').hover(function(){console.log('in')}, function(){console.log('out')});

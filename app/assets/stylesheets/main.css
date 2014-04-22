@@ -110,10 +110,10 @@ img#matt {
 }
 
 div.collapsible {
-  margin: 0 -8px;
+  margin: 0 16px;
   background-color: white;
   clear: both;
-  box-shadow: 0px 8px 0px #333;
+  box-shadow: 8px 8px 16px #333;
 }
 
 .collapsible h2 {
